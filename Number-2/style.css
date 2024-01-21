@@ -1,0 +1,80 @@
+/* common code start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: darkslateblue;
+}
+/* common code end */
+/* card section start */
+.card-section {
+  background-color: #dadcd9;
+  box-shadow: 0.1rem 0.1rem 0.3rem black;
+  width: 400px;
+  height: 65vh;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* card header start */
+.card-img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-section i {
+  float: right;
+  font-size: 1.5rem;
+  color: #8e7d4f;
+}
+/* card header end */
+/* card logo start */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  display: inline-block;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 5px;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: #8e7d4f;
+}
+.darkcyan {
+  background-color: darkcyan;
+}
+/* card logo end */
+/* card info start */
+.card-info {
+  text-align: center;
+}
+.price {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.price span {
+  color: #8e7d4f;
+}
+.card-info button {
+  width: 200px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #8e7d4f;
+  margin-top: 10px;
+}
+/* card info end */
+/* card section end */
