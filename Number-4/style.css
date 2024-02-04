@@ -1,0 +1,97 @@
+/* common code start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+html {
+  outline: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #e0cacc;
+}
+/* common code end */
+/* card section code start */
+.card {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  margin: 100px auto;
+  background-color: #ffff;
+  border-radius: 5px;
+}
+/* article code start */
+article {
+  flex: 6;
+  padding: 30px;
+}
+.article-img {
+  width: 100%;
+  height: 80%;
+}
+.size-btn p {
+  color: #e0cacc;
+}
+.size-btn button {
+  font-size: 1.3rem;
+  padding: 5px;
+  width: 40px;
+  color: #e0cacc;
+  border: 2px solid #e0cacc;
+}
+/* article code end */
+/* aside code start */
+aside {
+  flex: 4;
+  padding: 30px;
+
+}
+aside .first-p {
+  text-transform: uppercase;
+  color: #e0cacc;
+}
+aside .first-p span {
+  color: black;
+  font-size: 1.2rem;
+}
+aside h2 {
+  text-transform: uppercase;
+}
+aside h2 span {
+  color: #e0cacc;
+}
+aside button {
+  width: 200px;
+  font-size: 1.3rem;
+  border: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #e0cacc;
+  position: relative;
+  color: white;
+  border-radius: 5px;
+}
+aside i {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -20px;
+}
+/* aside code end */
+/* card section code end */
+
+/* Large devices (landscape tablets phones, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+  }
+  aside {
+    text-align: center;
+  }
+}
